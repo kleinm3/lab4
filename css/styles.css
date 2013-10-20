@@ -9,8 +9,10 @@ the browser default styles before applying their own */
 	margin-bottom: 1em;
 }
 
-.challenge {
-	
+@media screen and (max-width: 767px) {
+   .carousel {
+   	display: none; 
+   }
 }
 
 /*I need to have a comment*/
